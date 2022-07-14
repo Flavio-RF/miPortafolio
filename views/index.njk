@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Full Stack developer, here you will find information about the projects I have done."/>
+        <meta property="og:description" content="Full Stack developer, here you will find information about me. "/>
+        <meta property="og:title" content="Flavio Rodriguez | Full Stack Developer"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:site_name" content="Jose Estrada | Full Stack Developer"/>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="css/media.css" media="(max-width: 991px)"/>
+        <script src="https://kit.fontawesome.com/7b5fb2de65.js" crossorigin="anonymous" async="async"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <title>Flavio Rodriguez / Full Stack Developer</title>
     </head>
     <body>
-        <h1>hello world</h1>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__logo">
+                    <p class="navbar__title">
+                        <a href="#">FR</a>
+                    </p>
+                </div>
+                <div class="navbar__menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="navbar__links">
+                    <li class="navbar__link active" data-ref="home">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="navbar__link" data-ref="about">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="navbar__link" data-ref="services">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="navbar__link" data-ref="portfolio">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="navbar__link" data-ref="contact">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section id="home" class="home">
+            <div class="home__background"></div>
+            <picture>
+                <source type="image/webp" srcset="./assets/profile.webp"/>
+                <source type="image/jpeg" srcset="./assets/profile.jpg"/>
+                <img class="home__profile" src="" alt="picture profile"/>
+            </picture>
+            <div class="home__description">
+                <span class="home__title--primary">Hi!</span>
+                <h1 class="home__title">I'm Flavio Rodriguez</h1>
+                <span class="home__title--secondary">Full Stack Developer</span>
+            </div>
+        </section>
     </body>
 </html>
