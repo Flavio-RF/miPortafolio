@@ -53,7 +53,7 @@
 .skill__item {
   font-size: 65px;
   color: var(--grey);
-  padding: 35px;
+  padding: 28px;
   transition: all 0.3s;
   min-width: 130px;
   height: 180px;
