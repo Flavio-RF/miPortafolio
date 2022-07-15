@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -9,6 +9,9 @@
         <meta property="og:type" content="website"/>
         <meta property="og:site_name" content="Jose Estrada | Full Stack Developer"/>
         <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="css/about.css"/>
+        <link rel="stylesheet" href="css/contact.css"/>
+        <link rel="stylesheet" href="css/certificados.css"/>
         <link rel="stylesheet" href="css/media.css" media="(max-width: 991px)"/>
         <script src="https://kit.fontawesome.com/7b5fb2de65.js" crossorigin="anonymous" async="async"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
@@ -30,10 +33,10 @@
                         <a href="#home">Home</a>
                     </li>
                     <li class="navbar__link" data-ref="about">
-                        <a href="#about">About</a>
+                        <a href="#about">Sobre mi</a>
                     </li>
                     <li class="navbar__link" data-ref="services">
-                        <a href="#services">Services</a>
+                        <a href="#services">Certificados</a>
                     </li>
                     <li class="navbar__link" data-ref="portfolio">
                         <a href="#portfolio">Portfolio</a>
@@ -57,6 +60,110 @@
                 <span class="home__title--secondary">Full Stack Developer</span>
             </div>
         </section>
+        <section id="about">
+            <div class="container">
+                <h2 class="section__title">Sobre mi</h2>
+                <div class="about__grid">
+                    <div class="about__description">
+                        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maiores ad quidem consequuntur totam necessitatibus ab eveniet. Sint, explicabo reprehenderit.
+                        </p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio neque temporibus aliquam in ex ullam nam suscipit quasi, dignissimos harum, ducimus repellat incidunt. Laboriosam assumenda eos ea ipsam voluptatem sapiente iure magnam voluptatum accusantium quaerat, totam ad explicabo voluptate temporibus.
+                        </p>
+                        <a class="button--cta" href="./assets/Jose Estrada CV.pdf" download="Jose Estrada CV" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-file-download"></i>Download CV
+                        </a>
+                    </div>
+                    <div class="about__skills">
+                        <div class="skill__title">
+                            <h2>My skills</h2>
+                        </div>
+                        <div class="skill__item">
+                            <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB icon"/>
+                            <div class="skill__name">MongoDB</div>
+                        </div>
+                        <div class="skill__item">
+                            <img src="/img/expressjs.svg" alt="Express.js icon"/>
+                            <div class="skill__name">Express.js</div>
+                        </div>
+                        <div class="skill__item">
+                            <i class="fab fa-node"></i>
+                            <div class="skill__name">Node.js</div>
+                        </div>
+
+                        <div class="skill__item">
+                            <img src="/img/mysql.svg" alt="Myslq icon"/>
+                            <div class="skill__name">Mysql</div>
+                        </div>
+                        <div class="skill__item">
+                            <i class="fab fa-js"></i>
+                            <div class="skill__name">JavaScript</div>
+                        </div>
+
+                        <div class="skill__item">
+                            <i class="fab fa-github"></i>
+                            <div class="skill__name">GitHub</div>
+                        </div>
+                        <div class="skill__item">
+                            <i class="fab fa-git-alt"></i>
+                            <div class="skill__name">GIT</div>
+                        </div>
+                        <div class="skill__item">
+                            <img src="/img/boostrap.svg" alt="Boostrap icon"/>
+                            <div class="skill__name">Boostrap</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2 class="section__title">Contact</h2>
+                <h3 class="section__subtitle">
+                    Contact me if you want us to work together.
+                </h3>
+                <div class="contact__grid">
+                    <a href="mailto:flavio.r.f@hotmail.com" target="_blank" rel="noopener noreferrer">
+                        <div class="contact__item">
+
+                            <i class="far fa-envelope"></i>
+                            <p>Mail Me</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Flavio-RF" target="_blank" rel="noopener noreferrer">
+                        <div class="contact__item">
+                            <i class="fab fa-github"></i>
+                            <p>Follow Me</p>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/Flavio_R95" target="_blank" rel="noopener noreferrer">
+                        <div class="contact__item">
+                            <i class="fab fa-twitter"></i>
+                            <p>Follow Me</p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/flavio-rodriguez-1aa233215/" target="_blank" rel="noopener noreferrer">
+                        <div class="contact__item">
+                            <i class="fab fa-linkedin-in"></i>
+                            <p>Contact Me</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    Copyright © 2022.
+                    <a href="#">@FRodriguez</a>
+                    <br/>
+                    All Rights Reserved
+                </p>
+            </div>
+        </footer>
         <script async="async" src="js/app.js"></script>
     </body>
 </html>

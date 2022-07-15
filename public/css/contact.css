@@ -1,0 +1,63 @@
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.contact__item {
+  color: var(--grey);
+  padding: 40px;
+  transition: all 0.3s;
+}
+
+.fa-envelope {
+  color: var(--red);
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-linkedin-in {
+  color: #0e76a8;
+}
+
+.contact__item i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.fa-envelope:hover {
+  transition: all 0.3s;
+  color: var(--grey);
+}
+.fa-github:hover {
+  transition: all 0.3s;
+  color: var(--grey);
+}
+.fa-twitter:hover {
+  transition: all 0.3s;
+  color: var(--grey);
+}
+.fa-linkedin-in:hover {
+  transition: all 0.3s;
+  color: var(--grey);
+}
+.active a {
+  color: #f5f5f5;
+}
+
+.footer {
+  background-color: var(--grey);
+  padding: 23px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  color: var(--blue);
+}
