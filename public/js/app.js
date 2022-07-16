@@ -69,15 +69,15 @@ ScrollReveal().reveal(".navbar", {
 ScrollReveal().reveal(".home__profile", {
     delay: 350
 });
-ScrollReveal().reveal(".home__title--primary", {
-    delay: 350
-});
-ScrollReveal().reveal(".home__title", {
-    delay: 450
-});
-ScrollReveal().reveal(".home__title--secondary", {
-    delay: 550
-});
+// ScrollReveal().reveal(".home__title--primary", {
+//     delay: 350
+// });
+// ScrollReveal().reveal(".home__title", {
+//     delay: 450
+// });
+// ScrollReveal().reveal(".home__title--secondary", {
+//     delay: 550
+// });
 ScrollReveal().reveal(".section__title", {
     delay: 250
 });

@@ -42,6 +42,21 @@ section {
   background: white;
 }
 
+.section__title {
+  color: var(--grey);
+  font-size: 35px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.section__subtitle {
+  color: var(--grey);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   width: 100%;
   display: inherit;
@@ -143,9 +158,92 @@ section {
   color: var(--blue);
 }
 
-.home__title--primary,
 .home__title--secondary {
   font-size: 45px;
   color: #f5f5f5;
   text-shadow: 1px 1px black;
+}
+
+.home__title {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 2px solid;
+  width: 16ch;
+
+  animation: typing 2s steps(16), blink-caret 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+.home__title--secondary {
+  white-space: nowrap;
+  width: 23ch;
+  overflow: hidden;
+  border-right: 2px solid;
+  animation: typing 2s steps(23), blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+/* @keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+} */
+
+.buttons__container {
+  display: flex;
+  border-radius: 10px;
+}
+
+.button {
+  background: #191919;
+  color: #f5f5f5;
+  padding: 5px 10px;
+  display: inline-block;
+  margin: auto;
+}
+
+.button:hover {
+  color: var(--blue);
+}
+
+.button--cta {
+  background: var(--blue);
+  color: var(--white);
+  padding: 5px 30px;
+  display: inline-block;
+  align-self: center;
+  margin: 20px auto;
+  font: bold;
+  border-radius: 5px;
+}
+
+.button--cta i {
+  margin-right: 10px;
+}
+
+.button--cta:hover {
+  background: var(--grey);
+  color: white;
+}
+.button .fa-github:before {
+  color: white;
 }

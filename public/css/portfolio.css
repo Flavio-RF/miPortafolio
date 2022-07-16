@@ -1,19 +1,10 @@
-.certificados__grid {
+.portfolio__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
-#HA {
-  color: var(--blue);
-  margin-left: 5px;
-}
-
-#HA:hover {
-  color: var(--grey);
-}
-
-.certificado__item {
+.portfolio__item {
   background: white;
   position: relative;
   object-fit: cover;
@@ -22,7 +13,7 @@
   border-radius: 10px;
 }
 
-.certificado__img {
+.portfolio__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -32,7 +23,7 @@
   max-height: 190px;
 }
 
-.certificado__description {
+.portfolio__description {
   padding: 50px;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
@@ -48,7 +39,7 @@
   flex-direction: column;
 }
 
-.certificado__item:hover .certificado__description {
+.portfolio__item:hover .portfolio__description {
   visibility: visible;
   opacity: 1;
   transition: all 0.5s;
@@ -56,16 +47,18 @@
   transform: translateY(-300px);
 }
 
-.certificado__item:hover .certificado__img {
+.portfolio__item:hover .portfolio__img {
   transition: all 1s;
   border-radius: 10px;
   transform: scale(1.3);
 }
 
-.certificado__description--title {
+.portfolio__description--title {
   color: var(--white);
 }
 
-.certificado__description--text {
+.portfolio__description--text {
   margin: 20px 0;
 }
+
+
