@@ -164,7 +164,7 @@ section {
   text-shadow: 1px 1px black;
 }
 
-.home__title {
+/* .home__title {
   display: block;
   font-family: monospace;
   white-space: nowrap;
@@ -173,9 +173,9 @@ section {
 
   animation: typing 2s steps(16), blink-caret 0.5s infinite step-end alternate;
   overflow: hidden;
-}
+} */
 
-.home__title--secondary {
+/* .home__title--secondary {
   white-space: nowrap;
   width: 23ch;
   overflow: hidden;
@@ -195,7 +195,7 @@ section {
   50% {
     border-color: transparent;
   }
-}
+} */
 /* @keyframes typing {
   from {
     width: 0;

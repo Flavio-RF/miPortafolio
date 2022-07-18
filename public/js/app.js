@@ -4,10 +4,48 @@ const homebg = document.querySelector(".home__background");
 const menu = document.querySelector(".navbar__menu");
 const links = document.querySelector(".navbar__links");
 const sections = document.querySelectorAll("section");
+const write = document.getElementById('write');
+const write2 = document.getElementById('write2');
+const show = document.getElementById("pic").style.visibility
+
+
 const config = {
     rootMargin: "0px",
     threshold: [0.6, 0.9],
 };
+
+
+const typewriter = new Typewriter(write, {
+});
+
+typewriter.typeString('En busca de un Desarrollador Web?')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Flavio Rodriguez')
+    .start();
+
+const typewriter2 = new Typewriter(write2, {
+});
+
+
+
+typewriter2.pauseFor(10000).typeString('Full Stack Developer  ')
+    .pauseFor(2500)
+    .deleteChars(1)
+    .typeString('<strong>Junior</strong>')
+    .pauseFor(2500)
+    .start();
+// typewriter2.pauseFor(10000).
+//     start().
+//     typeString('Full Stack Developer')
+//     .pauseFor(0)
+//     .deleteChars(0)
+//     .typeString('<strong>Junior</strong>')
+//     .stop();
+
+setTimeout(() => {
+    show
+}, 12500);
 
 function handleLlinks() {
     if (window.innerWidth <= 991) {
