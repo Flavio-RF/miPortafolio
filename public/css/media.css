@@ -51,6 +51,12 @@
     font-size: 35px;
   }
 
+  .about__description h2 {
+    color: var(--grey);
+    margin: 20px auto;
+    text-align: center;
+  }
+
   .section__title {
     justify-content: center;
   }
@@ -98,6 +104,13 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+  }
+
+  .home__profile {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    border-radius: 50%;
   }
 
   section {
